@@ -1,9 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Appbar from './components/Appbar';
+import Product from './components/Product';
+import ImageAvatars from './components/logo';
+import SearchBar from './components/SearchBar';
+// import App from './components/MDBICON';
 
 function App() {
   return (
     <div className="App">
+    
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
